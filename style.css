@@ -1,0 +1,39 @@
+.headingbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  border-bottom: 4px solid black;
+  height: 7vh;
+  padding: 1%;
+  background-color: rgb(146, 146, 233);
+  color: rgb(83, 240, 52);
+  font-size: large;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+button {
+  font-size: large;
+  color: rgb(83, 240, 52);
+
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  height: 100%;
+}
+.doitblacked {
+  color: black;
+}
+.row {
+  display: flex;
+}
+.col {
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+.container {
+  border: 2px solid black;
+  height: 90vh;
+}
