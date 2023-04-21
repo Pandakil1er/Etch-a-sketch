@@ -14,6 +14,19 @@
   text-align: center;
   box-sizing: border-box;
 }
+.right {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.right input {
+  margin-right: 2vw;
+  border: none;
+  height: 5vh;
+  padding: 0%;
+  background-color: transparent;
+}
 button {
   font-size: large;
   color: rgb(83, 240, 52);
@@ -21,7 +34,7 @@ button {
   font-weight: bold;
   background-color: transparent;
   border: none;
-  height: 100%;
+  height: 3vh;
 }
 .doitblacked {
   color: black;
@@ -31,7 +44,7 @@ button {
 }
 .col {
   box-sizing: border-box;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.479);
 }
 .container {
   border: 2px solid black;
